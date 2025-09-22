@@ -10,9 +10,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-luxury-gradient rounded-lg flex items-center justify-center">
-                <span className="text-lg font-bold text-primary-foreground">F</span>
-              </div>
+              <img 
+                src="/download.png" 
+                alt="Fasttrack Car Care Services Logo" 
+                className="w-10 h-10 rounded-lg object-contain"
+              />
               <div>
                 <h3 className="text-xl font-playfair font-bold">Fasttrack</h3>
                 <p className="text-sm text-muted-foreground">Car Care Services</p>
